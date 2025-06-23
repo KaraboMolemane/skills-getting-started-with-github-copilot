@@ -142,3 +142,30 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants-section {
+  margin-top: 10px;
+  background: #eef3fb;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.participants-section strong {
+  color: #3949ab;
+  font-size: 15px;
+}
+
+.participants-list {
+  margin: 8px 0 0 32px; /* Force left indent for bullet list */
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.participants-list li {
+  margin-bottom: 3px;
+  font-size: 14px;
+  color: #333;
+}
