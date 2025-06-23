@@ -159,13 +159,29 @@ footer {
 }
 
 .participants-list {
-  margin: 8px 0 0 32px; /* Force left indent for bullet list */
-  padding-left: 20px;
-  list-style-type: disc;
+  margin: 8px 0 0 0; /* Remove left indent */
+  padding-left: 0; /* Remove default bullet padding */
+  list-style-type: none; /* Hide bullet points */
 }
 
 .participants-list li {
   margin-bottom: 3px;
   font-size: 14px;
   color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.delete-participant {
+  margin-left: 10px;
+  color: #c62828;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: color 0.2s;
+}
+
+.delete-participant:hover {
+  color: #a31515;
 }
